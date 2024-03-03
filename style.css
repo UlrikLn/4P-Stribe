@@ -1,0 +1,25 @@
+body{
+    background-color: #555;
+    color: #8b8;
+}
+
+#board{
+    display: grid;
+    grid-template-columns: repeat(7, max-content);
+    gap: 0.5em;
+}
+
+.cell{
+    width: 64px;
+    aspect-ratio: 1/1;
+    font-size: 300%; 
+
+    background-color: #888; 
+    border: 4px outset darkgrey;
+
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
